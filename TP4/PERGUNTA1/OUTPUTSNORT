@@ -1,0 +1,1187 @@
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:02:50.884371 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54047 IpLen:20 DgmLen:99
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:38525 -> 172.16.5.2:161
+UDP TTL:64 TOS:0x0 ID:65165 IpLen:20 DgmLen:71 DF
+Len: 43  Csum: 13950
+(43 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:02:50.887121 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54048 IpLen:20 DgmLen:99
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:42942 -> 172.16.5.2:161
+UDP TTL:64 TOS:0x0 ID:65166 IpLen:20 DgmLen:71 DF
+Len: 43  Csum: 9533
+(43 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:1418:11] SNMP request tcp [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+12/12-11:02:51.206934 172.16.5.1:48901 -> 172.16.5.2:161
+TCP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:48 DF
+******S* Seq: 0x51DD0532  Ack: 0x0  Win: 0x1000  TcpLen: 28
+TCP Options (4) => MSS: 1460 NOP NOP SackOK 
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0013][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0012][Xref => http://www.securityfocus.com/bid/4132][Xref => http://www.securityfocus.com/bid/4089][Xref => http://www.securityfocus.com/bid/4088]
+
+[**] [1:1421:11] SNMP AgentX/tcp request [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+12/12-11:02:51.309811 172.16.5.1:51582 -> 172.16.5.2:705
+TCP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:48 DF
+******S* Seq: 0xD42838BE  Ack: 0x0  Win: 0x1000  TcpLen: 28
+TCP Options (4) => MSS: 1460 NOP NOP SackOK 
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0013][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0012][Xref => http://www.securityfocus.com/bid/4132][Xref => http://www.securityfocus.com/bid/4089][Xref => http://www.securityfocus.com/bid/4088]
+
+[**] [1:249:8] DDOS mstream client to handler [**]
+[Classification: Attempted Denial of Service] [Priority: 2] 
+12/12-11:02:51.720563 172.16.5.1:41659 -> 172.16.5.2:15104
+TCP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:48 DF
+******S* Seq: 0xBCD2A175  Ack: 0x0  Win: 0x1000  TcpLen: 28
+TCP Options (4) => MSS: 1460 NOP NOP SackOK 
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2000-0138][Xref => http://www.whitehats.com/info/IDS111]
+
+[**] [1:1420:11] SNMP trap tcp [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+12/12-11:02:51.914341 172.16.5.1:14974 -> 172.16.5.2:162
+TCP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:48 DF
+******S* Seq: 0x44A1384F  Ack: 0x0  Win: 0x1000  TcpLen: 28
+TCP Options (4) => MSS: 1460 NOP NOP SackOK 
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0013][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0012][Xref => http://www.securityfocus.com/bid/4132][Xref => http://www.securityfocus.com/bid/4089][Xref => http://www.securityfocus.com/bid/4088]
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:02:51.997066 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54049 IpLen:20 DgmLen:58
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:49641 -> 172.16.5.2:9101
+UDP TTL:64 TOS:0x0 ID:65385 IpLen:20 DgmLen:30 DF
+Len: 2  Csum: 43829
+(2 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:02:51.997412 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54050 IpLen:20 DgmLen:72
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:34326 -> 172.16.5.2:8611
+UDP TTL:64 TOS:0x0 ID:65386 IpLen:20 DgmLen:44 DF
+Len: 16  Csum: 25668
+(16 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:15.204024 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54051 IpLen:20 DgmLen:101
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:41505 -> 172.16.5.2:16161
+UDP TTL:64 TOS:0x0 ID:931 IpLen:20 DgmLen:73 DF
+Len: 45  Csum: 3851
+(45 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:15.236328 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54052 IpLen:20 DgmLen:60
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:37271 -> 172.16.5.2:7010
+UDP TTL:64 TOS:0x0 ID:932 IpLen:20 DgmLen:32 DF
+Len: 4  Csum: 5268
+(4 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:15.326339 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54053 IpLen:20 DgmLen:108
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:44064 -> 172.16.5.2:17185
+UDP TTL:64 TOS:0x0 ID:946 IpLen:20 DgmLen:80 DF
+Len: 52  Csum: 45999
+(52 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:15.328181 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54054 IpLen:20 DgmLen:122
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:56227 -> 172.16.5.2:10080
+UDP TTL:64 TOS:0x0 ID:947 IpLen:20 DgmLen:94 DF
+Len: 66  Csum: 10024
+(66 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:15.341518 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54055 IpLen:20 DgmLen:122
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:51633 -> 172.16.5.2:10081
+UDP TTL:64 TOS:0x0 ID:949 IpLen:20 DgmLen:94 DF
+Len: 66  Csum: 14617
+(66 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:15.411436 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54056 IpLen:20 DgmLen:113
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:32958 -> 172.16.5.2:2638
+UDP TTL:64 TOS:0x0 ID:968 IpLen:20 DgmLen:85 DF
+Len: 57  Csum: 7732
+(57 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:17.007869 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54057 IpLen:20 DgmLen:72
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:43859 -> 172.16.5.2:8611
+UDP TTL:64 TOS:0x0 ID:990 IpLen:20 DgmLen:44 DF
+Len: 16  Csum: 16135
+(16 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:19.067770 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54058 IpLen:20 DgmLen:72
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:36167 -> 172.16.5.2:8612
+UDP TTL:64 TOS:0x0 ID:1408 IpLen:20 DgmLen:44 DF
+Len: 16  Csum: 23570
+(16 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:19.069183 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54059 IpLen:20 DgmLen:79
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:38668 -> 172.16.5.2:3235
+UDP TTL:64 TOS:0x0 ID:1409 IpLen:20 DgmLen:51 DF
+Len: 23  Csum: 13652
+(23 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:20.012795 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54060 IpLen:20 DgmLen:112
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:60507 -> 172.16.5.2:1917
+UDP TTL:64 TOS:0x0 ID:1417 IpLen:20 DgmLen:84 DF
+Len: 56  Csum: 15863
+(56 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:21.052852 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54061 IpLen:20 DgmLen:114
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:41095 -> 172.16.5.2:1812
+UDP TTL:64 TOS:0x0 ID:1588 IpLen:20 DgmLen:86 DF
+Len: 58  Csum: 2680
+(58 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:21.382038 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54062 IpLen:20 DgmLen:86
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:46822 -> 172.16.5.2:3968
+UDP TTL:64 TOS:0x0 ID:1591 IpLen:20 DgmLen:58 DF
+Len: 30  Csum: 44632
+(30 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:453:5] ICMP Timestamp Request [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:21.634126 172.16.5.1 -> 172.16.5.2
+ICMP TTL:255 TOS:0x0 ID:9 IpLen:20 DgmLen:52
+Type:13  Code:0  ID: 1  Seq: 1  TIMESTAMP REQUEST
+
+[**] [1:451:5] ICMP Timestamp Reply [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:21.634341 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0x0 ID:54063 IpLen:20 DgmLen:40
+Type:14  Code:0  ID: 1  Seq: 1  TIMESTAMP REPLY:
+Orig: 0 Rtime: 2874171138  Ttime: 2874171138
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:24.094247 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54064 IpLen:20 DgmLen:62
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:33513 -> 172.16.5.2:1793
+UDP TTL:64 TOS:0x0 ID:1939 IpLen:20 DgmLen:34 DF
+Len: 6  Csum: 30324
+(6 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:24.201721 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54065 IpLen:20 DgmLen:140
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:45956 -> 172.16.5.2:518
+UDP TTL:64 TOS:0x0 ID:1960 IpLen:20 DgmLen:112 DF
+Len: 84  Csum: 46783
+(84 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:24.516802 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54066 IpLen:20 DgmLen:72
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:44288 -> 172.16.5.2:3483
+UDP TTL:64 TOS:0x0 ID:1986 IpLen:20 DgmLen:44 DF
+Len: 16  Csum: 44115
+(16 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:26.548637 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54067 IpLen:20 DgmLen:72
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:49227 -> 172.16.5.2:407
+UDP TTL:64 TOS:0x0 ID:2173 IpLen:20 DgmLen:44 DF
+Len: 16  Csum: 55548
+(16 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:26.548911 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54068 IpLen:20 DgmLen:150
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:43316 -> 172.16.5.2:1900
+UDP TTL:64 TOS:0x0 ID:2174 IpLen:20 DgmLen:122 DF
+Len: 94  Csum: 41137
+(94 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:27.551586 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54069 IpLen:20 DgmLen:150
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:43316 -> 172.16.5.2:1900
+UDP TTL:64 TOS:0x0 ID:2321 IpLen:20 DgmLen:122 DF
+Len: 94  Csum: 41137
+(94 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:28.248292 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54070 IpLen:20 DgmLen:100
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:52980 -> 172.16.5.2:750
+UDP TTL:64 TOS:0x0 ID:2422 IpLen:20 DgmLen:72 DF
+Len: 44  Csum: 22790
+(44 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:30.046572 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54071 IpLen:20 DgmLen:58
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:56709 -> 172.16.5.2:5351
+UDP TTL:64 TOS:0x0 ID:2766 IpLen:20 DgmLen:30 DF
+Len: 2  Csum: 43849
+(2 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:524:8] BAD-TRAFFIC tcp port 0 traffic [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:30.673744 172.16.5.1:11080 -> 172.16.5.2:0
+TCP TTL:64 TOS:0x0 ID:46785 IpLen:20 DgmLen:40
+******S* Seq: 0xC6CAA28  Ack: 0x0  Win: 0x200  TcpLen: 20
+
+[**] [1:524:8] BAD-TRAFFIC tcp port 0 traffic [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:30.673913 172.16.5.2:0 -> 172.16.5.1:11080
+TCP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x0  Ack: 0xC6CAA29  Win: 0x0  TcpLen: 20
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:32.003305 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54072 IpLen:20 DgmLen:64
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:57352 -> 172.16.5.2:2003
+UDP TTL:64 TOS:0x0 ID:3071 IpLen:20 DgmLen:36 DF
+Len: 8  Csum: 46532
+(8 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:32.008886 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54073 IpLen:20 DgmLen:62
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:54047 -> 172.16.5.2:9876
+UDP TTL:64 TOS:0x0 ID:3072 IpLen:20 DgmLen:34 DF
+Len: 6  Csum: 27157
+(6 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:33.271043 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54074 IpLen:20 DgmLen:132
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:54666 -> 172.16.5.2:1701
+UDP TTL:64 TOS:0x0 ID:3231 IpLen:20 DgmLen:104 DF
+Len: 76  Csum: 62911
+(76 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:33.584361 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54075 IpLen:20 DgmLen:60
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:58515 -> 172.16.5.2:192
+UDP TTL:64 TOS:0x0 ID:3254 IpLen:20 DgmLen:32 DF
+Len: 4  Csum: 44365
+(4 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:35.023454 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54076 IpLen:20 DgmLen:80
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:50704 -> 172.16.5.2:520
+UDP TTL:64 TOS:0x0 ID:3535 IpLen:20 DgmLen:52 DF
+Len: 24  Csum: 54368
+(24 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:36.056407 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54077 IpLen:20 DgmLen:81
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:41059 -> 172.16.5.2:464
+UDP TTL:64 TOS:0x0 ID:3695 IpLen:20 DgmLen:53 DF
+Len: 25  Csum: 32560
+(25 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:36.488396 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54078 IpLen:20 DgmLen:88
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:46335 -> 172.16.5.2:1604
+UDP TTL:64 TOS:0x0 ID:3739 IpLen:20 DgmLen:60 DF
+Len: 32  Csum: 5414
+(32 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/12-11:03:36.808308 0.0.0.0:34525 -> 255.255.255.255:20561
+UDP TTL:128 TOS:0x0 ID:42618 IpLen:20 DgmLen:50 DF
+Len: 22
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:37.729456 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54079 IpLen:20 DgmLen:548
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:500 -> 172.16.5.2:500
+UDP TTL:255 TOS:0x0 ID:43962 IpLen:20 DgmLen:520
+Len: 492  Csum: 4200
+(492 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/12-11:03:38.732230 0.0.0.0:34525 -> 255.255.255.255:20561
+UDP TTL:128 TOS:0x0 ID:42618 IpLen:20 DgmLen:50 DF
+Len: 22
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:38.733293 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54080 IpLen:20 DgmLen:68
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:47099 -> 172.16.5.2:4569
+UDP TTL:64 TOS:0x0 ID:3877 IpLen:20 DgmLen:40 DF
+Len: 12  Csum: 19833
+(12 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:1384:8] MISC UPnP malformed advertisement [**]
+[Classification: Misc Attack] [Priority: 2] 
+12/12-11:03:38.735919 172.16.5.1:36610 -> 172.16.5.2:1900
+UDP TTL:64 TOS:0x0 ID:31337 IpLen:20 DgmLen:281
+Len: 253
+[Xref => http://www.microsoft.com/technet/security/bulletin/MS01-059.mspx][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2001-0877][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2001-0876][Xref => http://www.securityfocus.com/bid/3723]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/12-11:03:40.076235 0.0.0.0:34525 -> 255.255.255.255:20561
+UDP TTL:128 TOS:0x0 ID:42618 IpLen:20 DgmLen:50 DF
+Len: 22
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.173784 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54081 IpLen:20 DgmLen:88
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:53502 -> 172.16.5.2:7001
+UDP TTL:64 TOS:0x0 ID:3901 IpLen:20 DgmLen:60 DF
+Len: 32  Csum: 40913
+(32 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.176581 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54082 IpLen:20 DgmLen:60
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:5678 -> 172.16.5.2:5678
+UDP TTL:64 TOS:0x0 ID:40920 IpLen:20 DgmLen:32
+Len: 4  Csum: 29014
+(4 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:388:5] ICMP Address Mask Request [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.282905 172.16.5.1 -> 172.16.5.2
+ICMP TTL:255 TOS:0x0 ID:9 IpLen:20 DgmLen:32
+Type:17  Code:0  ID: 1  Seq: 1  ADDRESS REQUEST
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.287129 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54083 IpLen:20 DgmLen:103
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:46858 -> 172.16.5.2:3130
+UDP TTL:64 TOS:0x0 ID:3926 IpLen:20 DgmLen:75 DF
+Len: 47  Csum: 21861
+(47 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:384:5] ICMP PING [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.402785 172.16.5.1 -> 172.16.5.2
+ICMP TTL:64 TOS:0x0 ID:8277 IpLen:20 DgmLen:29
+Type:8  Code:0  ID:1   Seq:1  ECHO
+
+[**] [1:408:5] ICMP Echo Reply [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.402957 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0x0 ID:54084 IpLen:20 DgmLen:29
+Type:0  Code:0  ID:1  Seq:1  ECHO REPLY
+
+[**] [1:384:5] ICMP PING [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.406814 172.16.5.1 -> 172.16.5.2
+ICMP TTL:64 TOS:0x0 ID:22192 IpLen:20 DgmLen:282
+Type:8  Code:0  ID:1   Seq:1  ECHO
+
+[**] [1:408:5] ICMP Echo Reply [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.406992 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0x0 ID:54085 IpLen:20 DgmLen:282
+Type:0  Code:0  ID:1  Seq:1  ECHO REPLY
+
+[**] [1:384:5] ICMP PING [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.411549 172.16.5.1 -> 172.16.5.2
+ICMP TTL:64 TOS:0x0 ID:22192 IpLen:20 DgmLen:282
+Type:8  Code:0  ID:1   Seq:1  ECHO
+
+[**] [1:408:5] ICMP Echo Reply [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.411701 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0x0 ID:54086 IpLen:20 DgmLen:282
+Type:0  Code:0  ID:1  Seq:1  ECHO REPLY
+
+[**] [1:384:5] ICMP PING [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.416425 172.16.5.1 -> 172.16.5.2
+ICMP TTL:64 TOS:0x0 ID:22192 IpLen:20 DgmLen:282
+Type:8  Code:0  ID:1   Seq:1  ECHO
+
+[**] [1:408:5] ICMP Echo Reply [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:42.416583 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0x0 ID:54087 IpLen:20 DgmLen:282
+Type:0  Code:0  ID:1  Seq:1  ECHO REPLY
+
+[**] [1:384:5] ICMP PING [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:43.466738 172.16.5.1 -> 172.16.5.2
+ICMP TTL:64 TOS:0x0 ID:4421 IpLen:20 DgmLen:29
+Type:8  Code:0  ID:1   Seq:1  ECHO
+
+[**] [1:408:5] ICMP Echo Reply [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:43.466910 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0x0 ID:54088 IpLen:20 DgmLen:29
+Type:0  Code:0  ID:1  Seq:1  ECHO REPLY
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:43.583675 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54089 IpLen:20 DgmLen:72
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:59506 -> 172.16.5.2:38293
+UDP TTL:64 TOS:0x0 ID:4142 IpLen:20 DgmLen:44 DF
+Len: 16  Csum: 59740
+(16 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:43.874474 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54090 IpLen:20 DgmLen:121
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:33641 -> 172.16.5.2:5246
+UDP TTL:64 TOS:0x0 ID:4173 IpLen:20 DgmLen:93 DF
+Len: 65  Csum: 60743
+(65 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:45.022649 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54091 IpLen:20 DgmLen:76
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:52538 -> 172.16.5.2:65001
+UDP TTL:64 TOS:0x0 ID:4287 IpLen:20 DgmLen:48 DF
+Len: 20  Csum: 465
+(20 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:388:5] ICMP Address Mask Request [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:45.346805 172.16.5.1 -> 172.16.5.2
+ICMP TTL:255 TOS:0x0 ID:9 IpLen:20 DgmLen:32
+Type:17  Code:0  ID: 1  Seq: 1  ADDRESS REQUEST
+
+[**] [1:388:5] ICMP Address Mask Request [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:48.445606 172.16.5.1 -> 172.16.5.2
+ICMP TTL:255 TOS:0x0 ID:9 IpLen:20 DgmLen:32
+Type:17  Code:0  ID: 1  Seq: 1  ADDRESS REQUEST
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:50.046513 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54092 IpLen:20 DgmLen:104
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:58330 -> 172.16.5.2:123
+UDP TTL:64 TOS:0x0 ID:4813 IpLen:20 DgmLen:76 DF
+Len: 48  Csum: 62493
+(48 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:51.630859 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54093 IpLen:20 DgmLen:57
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:52601 -> 172.16.5.2:1434
+UDP TTL:64 TOS:0x0 ID:5011 IpLen:20 DgmLen:29 DF
+Len: 1  Csum: 51364
+(1 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:51.738341 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54094 IpLen:20 DgmLen:83
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:54227 -> 172.16.5.2:8000
+UDP TTL:64 TOS:0x0 ID:5025 IpLen:20 DgmLen:55 DF
+Len: 27  Csum: 30011
+(27 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:51.846513 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54095 IpLen:20 DgmLen:68
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:35329 -> 172.16.5.2:6699
+UDP TTL:64 TOS:0x0 ID:5044 IpLen:20 DgmLen:40 DF
+Len: 12  Csum: 16946
+(12 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:52.062286 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54096 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:35301 -> 172.16.5.2:15217
+UDP TTL:64 TOS:0x0 ID:5053 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 21893
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:52.171904 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54097 IpLen:20 DgmLen:84
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:39554 -> 172.16.5.2:3478
+UDP TTL:64 TOS:0x0 ID:5079 IpLen:20 DgmLen:56 DF
+Len: 28  Csum: 25547
+(28 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:52.175126 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54098 IpLen:20 DgmLen:84
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:46992 -> 172.16.5.2:3479
+UDP TTL:64 TOS:0x0 ID:5080 IpLen:20 DgmLen:56 DF
+Len: 28  Csum: 29466
+(28 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:54.176964 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54099 IpLen:20 DgmLen:97
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:42701 -> 172.16.5.2:5353
+UDP TTL:64 TOS:0x0 ID:5520 IpLen:20 DgmLen:69 DF
+Len: 41  Csum: 44452
+(41 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:57.135787 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54100 IpLen:20 DgmLen:73
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:54995 -> 172.16.5.2:47808
+UDP TTL:64 TOS:0x0 ID:6162 IpLen:20 DgmLen:45 DF
+Len: 17  Csum: 50359
+(17 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:57.485358 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54101 IpLen:20 DgmLen:112
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:34561 -> 172.16.5.2:3024
+UDP TTL:64 TOS:0x0 ID:6244 IpLen:20 DgmLen:84 DF
+Len: 56  Csum: 26264
+(56 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:57.599302 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54102 IpLen:20 DgmLen:99
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:58404 -> 172.16.5.2:6161
+UDP TTL:64 TOS:0x0 ID:6255 IpLen:20 DgmLen:71 DF
+Len: 43  Csum: 41039
+(43 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:57.605169 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54103 IpLen:20 DgmLen:99
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:47806 -> 172.16.5.2:8161
+UDP TTL:64 TOS:0x0 ID:6256 IpLen:20 DgmLen:71 DF
+Len: 43  Csum: 49381
+(43 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:03:57.826457 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54104 IpLen:20 DgmLen:81
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:43120 -> 172.16.5.2:5768
+UDP TTL:64 TOS:0x0 ID:6310 IpLen:20 DgmLen:53 DF
+Len: 25  Csum: 55374
+(25 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:00.021206 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54105 IpLen:20 DgmLen:64
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:59447 -> 172.16.5.2:177
+UDP TTL:64 TOS:0x0 ID:6400 IpLen:20 DgmLen:36 DF
+Len: 8  Csum: 46269
+(8 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:00.135503 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54106 IpLen:20 DgmLen:110
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:39061 -> 172.16.5.2:427
+UDP TTL:64 TOS:0x0 ID:6419 IpLen:20 DgmLen:82 DF
+Len: 54  Csum: 9790
+(54 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:02.005164 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54107 IpLen:20 DgmLen:132
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:34126 -> 172.16.5.2:4827
+UDP TTL:64 TOS:0x0 ID:6506 IpLen:20 DgmLen:104 DF
+Len: 76  Csum: 32877
+(76 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:02.122812 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54108 IpLen:20 DgmLen:69
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:37880 -> 172.16.5.2:28960
+UDP TTL:64 TOS:0x0 ID:6516 IpLen:20 DgmLen:41 DF
+Len: 13  Csum: 24791
+(13 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:03.064069 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54109 IpLen:20 DgmLen:576
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:42061 -> 172.16.5.2:3702
+UDP TTL:64 TOS:0x0 ID:6712 IpLen:20 DgmLen:777 DF
+Len: 749  Csum: 59266
+(520 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:04.099852 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54110 IpLen:20 DgmLen:69
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:53467 -> 172.16.5.2:28961
+UDP TTL:64 TOS:0x0 ID:6830 IpLen:20 DgmLen:41 DF
+Len: 13  Csum: 9203
+(13 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:05.041855 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54111 IpLen:20 DgmLen:90
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:41137 -> 172.16.5.2:9987
+UDP TTL:64 TOS:0x0 ID:7041 IpLen:20 DgmLen:62 DF
+Len: 34  Csum: 24129
+(34 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:06.069586 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54112 IpLen:20 DgmLen:116
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:38381 -> 172.16.5.2:6000
+UDP TTL:64 TOS:0x0 ID:7074 IpLen:20 DgmLen:88 DF
+Len: 60  Csum: 19229
+(60 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:07.096541 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54113 IpLen:20 DgmLen:102
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:56801 -> 172.16.5.2:9595
+UDP TTL:64 TOS:0x0 ID:7181 IpLen:20 DgmLen:74 DF
+Len: 46  Csum: 24936
+(46 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:08.029141 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54114 IpLen:20 DgmLen:76
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:39686 -> 172.16.5.2:523
+UDP TTL:64 TOS:0x0 ID:7277 IpLen:20 DgmLen:48 DF
+Len: 20  Csum: 56583
+(20 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:09.067509 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54115 IpLen:20 DgmLen:72
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:44342 -> 172.16.5.2:2000
+UDP TTL:64 TOS:0x0 ID:7321 IpLen:20 DgmLen:44 DF
+Len: 16  Csum: 18966
+(16 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:528:5] BAD-TRAFFIC loopback traffic [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/12-11:04:09.296042 127.0.0.1:1000 -> 172.16.5.2:111
+UDP TTL:128 TOS:0x0 ID:49641 IpLen:20 DgmLen:88 DF
+Len: 60
+[Xref => http://rr.sans.org/firewall/egress.php]
+
+[**] [1:528:5] BAD-TRAFFIC loopback traffic [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/12-11:04:09.305406 127.0.0.1:1000 -> 172.16.5.2:111
+UDP TTL:128 TOS:0x0 ID:44079 IpLen:20 DgmLen:88 DF
+Len: 60
+[Xref => http://rr.sans.org/firewall/egress.php]
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:04:09.680181 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54116 IpLen:20 DgmLen:520
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:48122 -> 172.16.5.2:500
+UDP TTL:64 TOS:0x0 ID:7422 IpLen:20 DgmLen:492 DF
+Len: 464  Csum: 22267
+(464 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:11.074764 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54117 IpLen:20 DgmLen:70
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:40530 -> 172.16.5.2:1194
+UDP TTL:64 TOS:0x0 ID:15590 IpLen:20 DgmLen:42 DF
+Len: 14  Csum: 25328
+(14 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:11.075377 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54118 IpLen:20 DgmLen:70
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:37768 -> 172.16.5.2:5000
+UDP TTL:64 TOS:0x0 ID:15591 IpLen:20 DgmLen:42 DF
+Len: 14  Csum: 23081
+(14 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:11.121856 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54119 IpLen:20 DgmLen:83
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:43098 -> 172.16.5.2:7
+UDP TTL:64 TOS:0x0 ID:15592 IpLen:20 DgmLen:55 DF
+Len: 27  Csum: 7260
+(27 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:11.127676 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54120 IpLen:20 DgmLen:58
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:41276 -> 172.16.5.2:19
+UDP TTL:64 TOS:0x0 ID:15593 IpLen:20 DgmLen:30 DF
+Len: 2  Csum: 61276
+(2 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:11.165597 172.16.5.1 -> 172.16.5.2
+ICMP TTL:64 TOS:0xC0 ID:45998 IpLen:20 DgmLen:86
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.2:55123 -> 172.16.5.1:44139
+UDP TTL:64 TOS:0x0 ID:28090 IpLen:20 DgmLen:58 DF
+Len: 30  Csum: 17727
+(30 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:11.166635 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54121 IpLen:20 DgmLen:58
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:48130 -> 172.16.5.2:5632
+UDP TTL:64 TOS:0x0 ID:15595 IpLen:20 DgmLen:30 DF
+Len: 2  Csum: 32098
+(2 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:11.167576 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54122 IpLen:20 DgmLen:69
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:46144 -> 172.16.5.2:6969
+UDP TTL:64 TOS:0x0 ID:15596 IpLen:20 DgmLen:41 DF
+Len: 13  Csum: 62203
+(13 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:20.121792 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54123 IpLen:20 DgmLen:68
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:41657 -> 172.16.5.2:623
+UDP TTL:64 TOS:0x0 ID:15807 IpLen:20 DgmLen:40 DF
+Len: 12  Csum: 25012
+(12 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:20.122277 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54124 IpLen:20 DgmLen:68
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:33608 -> 172.16.5.2:664
+UDP TTL:64 TOS:0x0 ID:15808 IpLen:20 DgmLen:40 DF
+Len: 12  Csum: 33020
+(12 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:498:6] ATTACK-RESPONSES id check returned root [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/12-11:06:21.128080 172.16.5.2:1524 -> 172.16.5.1:41338
+TCP TTL:64 TOS:0x0 ID:6942 IpLen:20 DgmLen:91 DF
+***AP*** Seq: 0x568E6A97  Ack: 0xCBB4857F  Win: 0x2E  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 553374 4197714378 
+
+[**] [1:1882:10] ATTACK-RESPONSES id check returned userid [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/12-11:06:21.128080 172.16.5.2:1524 -> 172.16.5.1:41338
+TCP TTL:64 TOS:0x0 ID:6942 IpLen:20 DgmLen:91 DF
+***AP*** Seq: 0x568E6A97  Ack: 0xCBB4857F  Win: 0x2E  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 553374 4197714378 
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:28.190796 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54125 IpLen:20 DgmLen:57
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:47029 -> 172.16.5.2:13
+UDP TTL:64 TOS:0x0 ID:15985 IpLen:20 DgmLen:29 DF
+Len: 1  Csum: 56309
+(1 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:28.191995 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54126 IpLen:20 DgmLen:64
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:51280 -> 172.16.5.2:8005
+UDP TTL:64 TOS:0x0 ID:15986 IpLen:20 DgmLen:36 DF
+Len: 8  Csum: 6228
+(8 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:28.197263 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54127 IpLen:20 DgmLen:344
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:34838 -> 172.16.5.2:6502
+UDP TTL:64 TOS:0x0 ID:15987 IpLen:20 DgmLen:316 DF
+Len: 288  Csum: 33868
+(288 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:28.198044 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54128 IpLen:20 DgmLen:344
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:57318 -> 172.16.5.2:1971
+UDP TTL:64 TOS:0x0 ID:15988 IpLen:20 DgmLen:316 DF
+Len: 288  Csum: 15919
+(288 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:28.303518 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54129 IpLen:20 DgmLen:331
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:5060 -> 172.16.5.2:5060
+UDP TTL:64 TOS:0x0 ID:16000 IpLen:20 DgmLen:303 DF
+Len: 275  Csum: 27695
+(275 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:28.305638 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54130 IpLen:20 DgmLen:332
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:5060 -> 172.16.5.2:5061
+UDP TTL:64 TOS:0x0 ID:16001 IpLen:20 DgmLen:304 DF
+Len: 276  Csum: 4709
+(276 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:30.358894 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54131 IpLen:20 DgmLen:332
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:5060 -> 172.16.5.2:5070
+UDP TTL:64 TOS:0x0 ID:16505 IpLen:20 DgmLen:304 DF
+Len: 276  Csum: 17952
+(276 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:36.733333 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54132 IpLen:20 DgmLen:92
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:56613 -> 172.16.5.2:8161
+UDP TTL:64 TOS:0x0 ID:16971 IpLen:20 DgmLen:64 DF
+Len: 36  Csum: 10397
+(36 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:36.740514 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54133 IpLen:20 DgmLen:106
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:55290 -> 172.16.5.2:27491
+UDP TTL:64 TOS:0x0 ID:16972 IpLen:20 DgmLen:78 DF
+Len: 50  Csum: 7027
+(50 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+12/12-11:06:44.131877 172.16.5.2 -> 172.16.5.1
+ICMP TTL:64 TOS:0xC0 ID:54134 IpLen:20 DgmLen:58
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.5.1:56326 -> 172.16.5.2:17
+UDP TTL:64 TOS:0x0 ID:17708 IpLen:20 DgmLen:30 DF
+Len: 2  Csum: 46228
+(2 more bytes of original packet)
+** END OF DUMP
+
